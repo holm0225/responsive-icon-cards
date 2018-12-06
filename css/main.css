@@ -27,12 +27,18 @@ body {
 }
 
 .cards {
-  padding-left: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .card-img {
   padding-bottom: 1.3rem;
+}
+
+.card-img img {
+  display: block;
+  margin: 0;
+  width: 50px;
 }
 
 @media only screen and (min-width: 25em) {
