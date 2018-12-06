@@ -78,17 +78,21 @@ body {
   html {
     font-size: 110%;
     line-height: 1.4;
-    margin-bottom: 1.4rem;
   }
 
-}
+  .card {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+  }
 
-@media only screen and (min-width: 38em) {
+  .card-img {
+    display: block;
+  }
 
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-    margin-bottom: 1.4rem;
+  .card-body {
+    display: block;
+    width: 100%;
   }
 
 }
@@ -106,6 +110,17 @@ body {
 
   html {
     font-size: 130%;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+    padding-left: .75em;
   }
 
 }
